@@ -1,0 +1,111 @@
+2025-01-30T20:31:53.951Z [[32minfo[39m]: Received a GET request from app.use line 8
+2025-01-30T20:31:53.962Z [[32minfo[39m]: Received a GET request from app.use line 8
+2025-01-30T20:31:53.980Z [[32minfo[39m]: Received a GET request from line 59
+2025-01-30T20:31:53.987Z [[32minfo[39m]: Received a GET request from line 67
+2025-01-30T20:31:54.205Z [[32minfo[39m]: Received a GET request from app.use line 8
+2025-01-30T20:31:54.210Z [[32minfo[39m]: Received a GET request from line 83
+2025-01-30T20:31:54.319Z [[32minfo[39m]: Received a GET request from app.use line 8
+2025-01-30T20:31:54.334Z [[32minfo[39m]: Received a GET request from line 107
+2025-01-30T20:31:54.343Z [[32minfo[39m]: Received a GET request from app.use line 8
+2025-01-30T20:31:54.357Z [[32minfo[39m]: Received a GET request from line 119
+2025-01-30T20:31:54.527Z [[32minfo[39m]: Received a GET request from app.use line 8
+2025-01-30T20:31:54.555Z [[32minfo[39m]: Received a GET request from line 95
+2025-01-30T20:36:02.437Z [[32minfo[39m]: Received a GET function status(code) {
+  if ((typeof code === 'string' || Math.floor(code) !== code) && code > 99 && code < 1000) {
+    deprecate('res.status(' + JSON.stringify(code) + '): use res.status(' + Math.floor(code) + ') instead')
+  }
+  this.statusCode = code;
+  return this;
+}
+2025-01-30T20:36:02.500Z [[32minfo[39m]: Received a GET request from line 23
+2025-01-30T20:36:02.574Z [[32minfo[39m]: Received a GET function status(code) {
+  if ((typeof code === 'string' || Math.floor(code) !== code) && code > 99 && code < 1000) {
+    deprecate('res.status(' + JSON.stringify(code) + '): use res.status(' + Math.floor(code) + ') instead')
+  }
+  this.statusCode = code;
+  return this;
+}
+2025-01-30T20:36:02.643Z [[32minfo[39m]: Received a GET request from line 23
+2025-01-30T20:37:08.547Z [[32minfo[39m]: Received a GET, function status(code) {
+  if ((typeof code === 'string' || Math.floor(code) !== code) && code > 99 && code < 1000) {
+    deprecate('res.status(' + JSON.stringify(code) + '): use res.status(' + Math.floor(code) + ') instead')
+  }
+  this.statusCode = code;
+  return this;
+}
+2025-01-30T20:37:08.776Z [[32minfo[39m]: Received a GET request from line 23
+2025-01-30T20:37:08.819Z [[32minfo[39m]: Received a GET, function status(code) {
+  if ((typeof code === 'string' || Math.floor(code) !== code) && code > 99 && code < 1000) {
+    deprecate('res.status(' + JSON.stringify(code) + '): use res.status(' + Math.floor(code) + ') instead')
+  }
+  this.statusCode = code;
+  return this;
+}
+2025-01-30T20:37:08.874Z [[32minfo[39m]: Received a GET request from line 23
+2025-01-30T20:37:58.199Z [[32minfo[39m]: Received a GET, [object Object]
+2025-01-30T20:37:58.264Z [[32minfo[39m]: Received a GET request from line 23
+2025-01-30T20:37:58.364Z [[32minfo[39m]: Received a GET, [object Object]
+2025-01-30T20:37:58.592Z [[32minfo[39m]: Received a GET request from line 23
+2025-01-30T20:38:54.453Z [[32minfo[39m]: Received a GET, 200
+2025-01-30T20:38:54.518Z [[32minfo[39m]: Received a GET request from line 23
+2025-01-30T20:38:54.669Z [[32minfo[39m]: Received a GET, 200
+2025-01-30T20:38:54.707Z [[32minfo[39m]: Received a GET request from line 23
+2025-01-30T20:39:28.799Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:39:28.874Z [[32minfo[39m]: Received a GET request from line 23
+2025-01-30T20:39:28.922Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:39:28.939Z [[32minfo[39m]: Received a GET request from line 23
+2025-01-30T20:44:32.879Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:32.898Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:33.128Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:33.133Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:33.228Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:33.239Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:34.748Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:34.756Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:35.051Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:35.054Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:35.152Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:35.206Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:35.362Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:35.365Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:35.519Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:35.560Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:35.679Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:35.687Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:37.382Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:37.384Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:37.387Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:37.393Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:37.630Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:37.634Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:37.759Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:37.761Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:37.768Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:37.819Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:37.955Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:37.999Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:39.523Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:39.528Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:39.820Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:39.822Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:39.914Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:39.920Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:40.132Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:40.153Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:40.261Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:40.268Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:40.469Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:40.531Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:42.644Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:42.648Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:42.651Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:42.653Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:42.898Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:42.901Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:43.004Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:43.020Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:44:43.027Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:43.035Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:43.215Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-30T20:44:43.251Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-30T20:50:41.592Z [[32minfo[39m]: DB successfully started
