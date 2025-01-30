@@ -1,5 +1,6 @@
+require('dotenv').config();
 const mongodb = require("mongodb"); // mongo client library
-const url = "mongodb://localhost:27017/swapi";
+const url = process.env.MONGO_URL;
 let dbPool;
 
 mongodb.MongoClient.connect(url, function (err, db) {
