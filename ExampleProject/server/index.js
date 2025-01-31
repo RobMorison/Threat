@@ -1,7 +1,12 @@
 var express = require("express");
 var dao = require("./mongo-dao.js");
 var app = express();
+const https = require('https');
+const fs = require('fs');
 const logger = require('./logger.js');
+// to setup https on your machine: 
+// first generate a self signed certificate in base directory ie ./ExampleProject: 
+// openssl req -nodes -new -x509 -keyout server.key -out server.cert
 
 app.use((req, res, next) => {
   res.setHeader("X-Powered-By", "Travelers Rocks!!");
@@ -165,7 +170,13 @@ app.use(express.static('./public'));
 
 // server start-up
 const port = 4000;
-console.log(
-  "Open a browser to http://localhost:" + port + " to view the application");
-  logger.info("DB successfully started")
-app.listen(port);
+// console.log(
+//   "Open a browser to http://localhost:" + port + " to view the application");
+//   logger.info("DB successfully started")
+// Read SSL certificate and key
+const privateKey = fs.readFileSync('./cert/server.key','utf8');
+const certificate = fs.readFileSync('./cert/server.cert','utf8');
+const credentials = {key: privateKey, cert: certificate};
+https.createServer(credentials, app).listen(port, () => {
+  console.log(`HTTPS Server running on port ${port}`);
+});
