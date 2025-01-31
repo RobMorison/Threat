@@ -3,7 +3,10 @@ var dao = require("./mongo-dao.js");
 var app = express();
 const logger = require('./logger.js');
 
-app.disable('x-powered-by');
+app.use((req, res, next) => {
+  res.setHeader("X-Powered-By", "Travelers Rocks!!");
+  next();
+});
 app.use(express.json()); //Parse JSON body
 app.use((req, res, next) => {
   logger.info(`Received a ${req.method} request, with code: ${res.statusCode}`);

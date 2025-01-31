@@ -1,0 +1,14 @@
+2025-01-31T14:00:33.663Z [[32minfo[39m]: DB successfully started
+2025-01-31T14:21:10.066Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-31T14:21:10.121Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-31T14:21:10.140Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-31T14:21:10.150Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-31T14:44:14.682Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-31T14:44:14.693Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-31T14:44:14.717Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-31T14:44:14.725Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-31T14:50:25.768Z [[32minfo[39m]: DB successfully started
+2025-01-31T14:50:31.424Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-31T14:50:31.507Z [[32minfo[39m]: Received a GET request, with code: 304
+2025-01-31T14:50:31.545Z [[32minfo[39m]: Received a GET request, with code: 200
+2025-01-31T14:50:31.560Z [[32minfo[39m]: Received a GET request, with code: 304
